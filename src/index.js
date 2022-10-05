@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style.css';
+import Header from "./Header.js"
+import Footer from "./Footer.js"
+import MainContent from './Maincontent';
 
 /* 
 Quiz 
@@ -13,7 +16,6 @@ ans - Pascal case is any react Component should be named with Capital letter
 
 3. What is the correct way to call a react component or create an instanse of the component?
 ans - Using a html tag as such - reactDOM.render(<Component_name/> , document.getElementById('root'));
-
 
 */
 
@@ -42,44 +44,44 @@ function TemporayName(){
 
 
 
-function MainContent(){
-    return (
-        <div>
-            <ol>
-                <li>Hi , I am Hrithik</li>
-                <li>I dont know react</li>
-                <li>So I am trying to learn it</li>
-                <li>Help Me</li>
-            </ol>
-        </div>
-    )
-}
+// function MainContent(){
+//     return (
+//         <div>
+//             <ol>
+//                 <li>Hi , I am Hrithik</li>
+//                 <li>I dont know react</li>
+//                 <li>So I am trying to learn it</li>
+//                 <li>Help Me</li>
+//             </ol>
+//         </div>
+//     )
+// }
 
-// Mini-Challenge create a header element 
+// // Mini-Challenge create a header element 
 
-// Solution Header Component 
-function Header(){
-    return (
-        <header>
-            <nav>
-            <NavBar/>
-            <div>
-                <h1>I am excited to learn React</h1>
-            </div>
-            </nav>
-        </header>
-    )
-}
+// // Solution Header Component 
+// function Header(){
+//     return (
+//         <header>
+//             <nav>
+//             <NavBar/>
+//             <div>
+//                 <h1>I am excited to learn React</h1>
+//             </div>
+//             </nav>
+//         </header>
+//     )
+// }
 
 // Mini Challenge two :- Create a footer as its own component 
 // Solution for footer 
-function Footer(){
-    return (
-        <footer className='footer'>
-                <small>@ 2022 Hrithik development </small>
-        </footer>
-    )
-}
+// function Footer(){
+//     return (
+//         <footer className='footer'>
+//                 <small>@ 2022 Hrithik development </small>
+//         </footer>
+//     )
+// }
 
 function Page(){ // Page is a Parent Component 
     return (// Header , MainContent and Footer are child components
@@ -94,22 +96,22 @@ function Page(){ // Page is a Parent Component
 root.render(<Page/>);
 // root.render(<TemporayName />);
 
-// Challenge add a navigation bar 
+// // Challenge add a navigation bar 
 
-function NavBar(){
-    return (
-        <div>
-        <nav className='nav'>
-        <img className='nav-logo' src = "https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"></img>
-            <ul className='nav-items'>
-                <li>Pricing</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-        </div>
-    )
-}
+// function NavBar(){
+//     return (
+//         <div>
+//         <nav className='nav'>
+//         <img className='nav-logo' src = "https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"></img>
+//             <ul className='nav-items'>
+//                 <li>Pricing</li>
+//                 <li>About</li>
+//                 <li>Contact</li>
+//             </ul>
+//         </nav>
+//         </div>
+//     )
+// }
 
 
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './style.css';
 
 /* 
 Quiz 
@@ -46,7 +46,7 @@ function MainContent(){
     return (
         <div>
             <ol>
-                <li>hi , I am Hrithik</li>
+                <li>Hi , I am Hrithik</li>
                 <li>I dont know react</li>
                 <li>So I am trying to learn it</li>
                 <li>Help Me</li>
@@ -75,7 +75,7 @@ function Header(){
 // Solution for footer 
 function Footer(){
     return (
-        <footer>
+        <footer className='footer'>
                 <small>@ 2022 Hrithik development </small>
         </footer>
     )
@@ -100,7 +100,7 @@ function NavBar(){
     return (
         <div>
         <nav className='nav'>
-        <img src = "https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" width="100px"></img>
+        <img className='nav-logo' src = "https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png"></img>
             <ul className='nav-items'>
                 <li>Pricing</li>
                 <li>About</li>

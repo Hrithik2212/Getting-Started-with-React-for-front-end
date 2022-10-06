@@ -4,6 +4,38 @@
     align-items: center; 
 }
 
+body {
+    margin: 0;
+    font-family: Inter , sana-serif;
+    background-color: #21222A;
+}
+
+.NavBar{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    height: 90px;
+    padding:  0px 25px;
+}
+
+.NavBar > h3 , .NavBar > h4 {
+    margin: 0;
+    position: relative;
+    color: white;
+}
+
+.NavBar > h3 {
+    padding: 10px;
+    margin-right: auto;
+    color: #61dafb;
+    font-size: 22px;
+}
+
+.NavBar > img {
+    height: 20px;
+    width : 30px;
+}
+
 .nav-items {
     list-style: none;
     display: flex;
@@ -19,6 +51,23 @@
     width : 140px;
 }
 
+.Mainh1 {
+    color: white;
+    font-size: 24px;
+}
+
+
+
+.Mainh1 > li {
+    padding-left : 1em;
+    text-indent: -.7em;
+}
+
+.Mainh1 > li:before {
+    font-family: FontAwesome;
+    color:cyan; /* or whatever color you prefer */
+    margin-right: 4px;
+}
 .footer {
     position: relative ;
     left : 100px;

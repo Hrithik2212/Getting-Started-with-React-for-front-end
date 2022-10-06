@@ -42,7 +42,6 @@ root.render(<NewPage />)
 function TemporayName(){
     return (
     <div>
-        <img src ="https://logos-download.com/wp-content/uploads/2016/09/React_logo_wordmark.png" width="100px"></img>
         <h1>Welcome to my React website</h1> 
         <ul>
             <li>I am Hrithik</li>

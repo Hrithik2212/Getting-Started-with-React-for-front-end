@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './style.css';
-import Header from "./Header.js"
-import Footer from "./Footer.js"
-import MainContent from './Maincontent';
+// import Header from "./Header.js"
+// import Footer from "./Footer.js"
+// import MainContent from './Maincontent';
+import Main from './components/Main'
+import Navbar from './components/Navbar'
+
 
 /* 
 Quiz 
@@ -24,6 +27,17 @@ const root = ReactDOM.createRoot(
     document.getElementById('root')
   );
 
+
+function NewPage(){
+    return (
+        <nav>
+        < Navbar />  
+        < Main /> 
+        </nav>
+    )
+}
+
+root.render(<NewPage />)
 
 function TemporayName(){
     return (
@@ -83,17 +97,17 @@ function TemporayName(){
 //     )
 // }
 
-function Page(){ // Page is a Parent Component 
-    return (// Header , MainContent and Footer are child components
-        <div>
-        <Header/> 
-        <MainContent/>
-        <Footer/>
-        </div>
-    )
-}
+// function Page(){ // Page is a Parent Component 
+//     return (// Header , MainContent and Footer are child components
+//         <div>
+//         <Header/> 
+//         <MainContent/>
+//         <Footer/>
+//         </div>
+//     )
+// }
 
-root.render(<Page/>);
+// root.render(<Page/>);
 // root.render(<TemporayName />);
 
 // // Challenge add a navigation bar 

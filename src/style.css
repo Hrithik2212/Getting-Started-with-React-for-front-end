@@ -52,6 +52,7 @@ body {
 }
 
 .Mainh1 {
+    padding:  30px;
     color: white;
     font-size: 24px;
 }
@@ -65,7 +66,7 @@ body {
 
 .Mainh1 > li:before {
     font-family: FontAwesome;
-    color:cyan; /* or whatever color you prefer */
+    color:cyan; 
     margin-right: 4px;
 }
 .footer {

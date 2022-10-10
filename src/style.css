@@ -6,14 +6,17 @@
 
 body {
     margin: 0;
-    font-family: Inter , sana-serif;
-    background-color: #21222A;
+    font-family: Inter, sans-serif;
+    background-image: url(https://images.hdqwalls.com/wallpapers/react-js-logo-no.jpg);
+    background-repeat: no;
+    background-size: 2000px 1100px;
+
 }
 
 .NavBar{
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color:rgb(33, 29, 29);
     height: 90px;
     padding:  0px 25px;
 }
@@ -44,7 +47,7 @@ body {
 
 .nav-items > li {
     font-size: 18px;
-    padding: 10px;
+    padding-block: 10px;
 }
 
 .nav-logo {
@@ -52,17 +55,28 @@ body {
 }
 
 .Mainh1 {
-    padding:  30px;
+    margin : 0;
+    padding: 57px 27px ;
     color: white;
     font-size: 24px;
+    letter-spacing: -0.05em;
 }
 
-
+.main--ul >  li::marker{
+    font-size: 1.2em;
+    color: cyan;
+}
 
 .Mainh1 > li {
+    margin-top:   46px;
+    max-width: 400px;
     padding-left : 1em;
     text-indent: -.7em;
+    line-height: 3;
+    padding-block: 10px;
+
 }
+
 
 .Mainh1 > li:before {
     font-family: FontAwesome;

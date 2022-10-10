@@ -3,7 +3,7 @@
 ## Progress 
 
 ### My First React APP
-![img](Progress\MyFirstReactStaticSite.jpg)
+![img](Progress/MyFirstReactStaticSite.jpg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
